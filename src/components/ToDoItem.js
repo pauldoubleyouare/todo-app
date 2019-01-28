@@ -1,22 +1,13 @@
 import React from 'react';
 
-const styleToDo = {
-  
-}
-
 function ToDoItem() {
   return (
-    <div>
-    <input type="checkbox" />
-    <p>Placeholder</p>
-  </div>
+    <div className="todo-item">
+      <input style={{backgroundColor: "blue", border: "5px"}} type="checkbox" />
+      <p style={{color: "blue"}}>Placeholder</p>
+    </div>
   );
 }
 
-const ToDo = () =>  (
-  <div>
-    <input type="checkbox" />
-    <p>Placeholder</p>
-  </div>);
 
   export default ToDoItem;
